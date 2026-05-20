@@ -3,10 +3,25 @@
     --card-color: #D9D9D9;
     --primary-color: #0055FF;
     --primary-dark: #063AA1;
+    --nav-color: #fff;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 10vh;
+    background-color: var(--nav-color);
+    padding: 0 5%;
+} 
+
+body {
+    background-color: var(--background-color);
 }
